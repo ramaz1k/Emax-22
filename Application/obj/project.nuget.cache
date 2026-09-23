@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mrkTa2LDvWg=",
+  "dgSpecHash": "7YenoVEpzyM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Abubakr\\Desktop\\Exam  21.09.2026\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Abubakr\\.nuget\\packages\\dapper\\2.1.89\\dapper.2.1.89.nupkg.sha512",
+    "C:\\Users\\Abubakr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\Abubakr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.12\\microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

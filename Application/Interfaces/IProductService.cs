@@ -1,3 +1,5 @@
+using Application.DTO.CategoryDTO;
+using Application.DTO.ProductDTO;
 using Domain.ApieResponse;
 using Domain.Models;
 
@@ -5,9 +7,9 @@ namespace Application.Interfaces;
 
 public interface IProductService
 {
-    Task<IEnumerable<Category>>GetAllProductAsync();
-    Task<Response<Product>>GetProductbyIdAsync();
-    Task<Response<Product>>CreateProductAsync(Product product);
-    Task<Response<string>>UpdateProductAsync(Product product);
-    Task<Response<string>>DeleteProductAsync(int id);    
+    Task<Response<IEnumerable<ProductDTO>>>GetAllProductAsync();
+    Task<Response<ProductDTO>>GetProductbyIdAsync(int id);
+    Task<Response<bool>>CreateProductAsync(CreateProductDto product);
+    Task<Response<bool>>UpdateProductAsync(UpdateProductDto product);
+    Task<Response<bool>>DeleteProductAsync(int id);    
     }
